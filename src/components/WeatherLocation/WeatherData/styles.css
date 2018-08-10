@@ -1,0 +1,32 @@
+.weatherDataCont {
+    width: auto;
+    height: 100px;
+    background-color: rgba(58, 189, 75, 0.493);
+    line-height: 100px;
+}
+
+.weatherTemperatureCont {
+    width: 60%;
+    display: inline-block;
+}
+
+.temperature {
+    font-size: 30px;
+}
+
+.wicon {
+    padding-right: 10px;
+}
+
+.weatherExtraInfoCont {
+    width: 40%;
+    display: inline-block;
+    line-height: 100%;
+    font-size: 18px;
+}
+
+.extraInfoText {
+    display: block;
+    text-align: right;
+    padding-right: 40%
+}
