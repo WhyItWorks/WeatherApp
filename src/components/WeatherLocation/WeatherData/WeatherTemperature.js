@@ -20,7 +20,7 @@ const getWeather = weatherstate => {
         case WINDY:
             return "windy"
         case THUNDER:
-            return "thunderstorm"
+            return "day-thunderstorm"
         case SHOWERS:
             return "showers"
         default:

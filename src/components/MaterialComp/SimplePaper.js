@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 
 const styles = theme => ({
     root: {
-        ...theme.mixins.gutters(),        
+        ...theme.mixins.gutters(),
         paddingTop: theme.spacing.unit * 2,
     },
     // paper: {
@@ -13,7 +13,7 @@ const styles = theme => ({
     // }
 });
 
-class SimplePaper extends React.Component {
+class SimplePaper extends Component {
     render = () => {
         const { classes } = this.props
         const { color } = this.props
